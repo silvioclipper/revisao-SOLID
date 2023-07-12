@@ -7,6 +7,6 @@ class Mail
 
     public function send(string $mail, string $mensagem): string
     {
-        return 'E-mail enviando com sucesso';
+        return 'E-mail enviando com sucesso' . PHP_EOL;
     }
 }
